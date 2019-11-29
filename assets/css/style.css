@@ -1,0 +1,93 @@
+body{
+    background: #040325;
+    color:#677384;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.h-100vh{
+    height:100vh;
+}
+
+.hero{
+    position: relative;
+    background: url("../images/2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 140% 37%;
+}
+
+.hero .sidebar{
+    background: #070632;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hero .sidebar .social-media{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+
+.hero .sidebar .social-media a{
+    width:100%;
+    color:#fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero .sidebar .social-media a i{
+    font-size: 20px;
+    color:#ddd;
+}
+
+.hero .overlay{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.9));
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.service-item{
+    background: #070632;
+    text-align: center;
+    padding: 37px 15px;
+}
+.service-item i{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.skill{
+    position: relative;
+}
+
+.skill .content{
+    padding-left: 50px;
+}
+
+.skill i{
+    position: absolute;
+    left:0;top:0;
+}
+.skill-set{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.skill-set .col{
+    margin-bottom: 5px;
+}
+
+.bg-2{
+    background: #04032f;
+}
