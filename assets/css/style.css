@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,400,500,700,800,900&display=swap');
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: "Poppins",sans-serif;
+}
 body{
     background: #040325;
     color:#677384;
@@ -49,20 +54,43 @@ body{
     background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.9));
     opacity: .5;
     position: absolute;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    height: 200px;
+    height: 100%;
+    z-index: -1;
 }
 
 .py-100{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .service-item{
     background: #070632;
-    text-align: center;
-    padding: 37px 15px;
+    text-align: left;
+    padding: 36px 15px 50px 70px;
+    position: relative;
 }
+
+.service-item h5{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.service-item p{
+    opacity: .7;
+}
+
+.service-item .hash{
+    font-size: 40px;
+    position: absolute;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    top: 23px;
+    opacity: .3;
+    left: 14px;
+    transform: rotate(-91deg);
+}
+
 .service-item i{
     font-size: 24px;
     margin-bottom: 10px;
@@ -81,13 +109,45 @@ body{
 }
 .skill-set{
     font-size: 20px;
-    letter-spacing: 1px;
 }
 
 .skill-set .col{
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .bg-2{
     background: #04032f;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+.section-title{
+    position: relative;
+}
+
+.section-title .bold-txt{
+    font-size: 90px;
+    position: absolute;
+    top: -104px;
+    font-weight: 900;
+    z-index: 1;
+    line-height: 1.7;
+    opacity: .2;
+    left: -5px;
+    color:#677384;
+}
+
+.section-title h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.text-white{
+    color:#ddd !important;
 }
