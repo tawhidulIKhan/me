@@ -216,3 +216,12 @@ body{
     border-radius: 0px;
 }
 
+.portfolio-1{
+    height: 620px;
+    background: rebeccapurple;
+    display: flex;
+}
+
+.modal-content{
+    padding: 45px;
+}
