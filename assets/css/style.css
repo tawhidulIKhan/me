@@ -19,6 +19,57 @@ body{
     overflow: hidden;
 }
 
+.hero .content-block .bold-txt{
+    font-size: 4.625rem;
+    position: absolute;
+    top: -6.5rem;
+    font-weight: 900;
+    z-index: 1;
+    line-height: 0.7;
+    opacity: .2;
+    left: 41%;
+    color: #677384;
+}
+
+.hero .content-block h1{
+    padding-top: 0px;
+    font-size: 3.8125rem;
+    letter-spacing: 1px;
+    position: relative;
+    top: -72px;
+}
+
+.hero .content-block h2{
+font-size: 2.5rem;
+    font-weight: 300 !important;
+    position: relative;
+    top: -83px;
+}
+.hero .content-block{
+    position: absolute;
+    top: 50%;
+
+}
+
+.hero .content-block .bold-txt{
+    top: -9rem;
+}
+
+.hero .content-block .big-bold-txt{
+    font-size: 22rem;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    opacity: 0.4;
+    left: 0;
+    color: #677384;
+    font-family: "Roboto",sans-serif;
+}
+
+.hero .content-block .section-title{
+    padding-left: 41%;
+}
+
 .hero .img-block{
     position: absolute;
     right: -9%;
