@@ -1,6 +1,29 @@
 .hero{
     position: relative;
     overflow: hidden;
+    background: rgb(3,3,37);
+    background: linear-gradient(180deg, rgba(3,3,37,1) 0%, rgba(26,26,88,1) 63%, rgba(53,53,106,1) 100%);
+    // &-circle-1{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 300px;
+    //     height: 300px;
+    //     border-radius: 50%;
+    //     background: #030325;
+    //     z-index: 1;
+    //     background: rgb(3,3,37);
+    //     background: radial-gradient(circle, rgba(3,3,37,1) 0%, rgba(26,26,88,1) 63%, rgba(53,53,106,1) 100%);
+    //     box-shadow: 0px 0px 23px 7px rgba(3,3,37,.4);
+    // }
+    &-txt-3{
+        color: $color-3;
+        font-size: 28px;
+    font-weight: 700 !important;
+    position: relative;
+    top: -83px;
+
+    }
 }
 
 .hero .content-block .bold-txt{
@@ -11,10 +34,9 @@
     z-index: 1;
     line-height: 0.7;
     left: 41%;
-    background: -webkit-linear-gradient(#6767e7,#3e3ea5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     height:100px;
+    top: -9rem;
+    color: #2b2b65;
 }
 
 .hero .content-block h1{
@@ -25,20 +47,10 @@
     top: -72px;
 }
 
-.hero .content-block h2{
-font-size: 2.5rem;
-    font-weight: 300 !important;
-    position: relative;
-    top: -83px;
-}
 .hero .content-block{
     position: absolute;
     top: 50%;
 
-}
-
-.hero .content-block .bold-txt{
-    top: -9rem;
 }
 
 .hero .content-block .big-bold-txt{
@@ -46,9 +58,8 @@ font-size: 2.5rem;
     position: absolute;
     top: 0;
     line-height: 0;
-    opacity: 0.4;
     left: 0;
-    color: #677384;
+    color: #2d2d71;
     font-family: "Roboto",sans-serif;
 }
 
@@ -78,6 +89,7 @@ font-size: 2.5rem;
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 @media screen and (max-width: 880px){
     .hero .sidebar {
